@@ -4,7 +4,7 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'pg'
 development:
-  adapter: pg
+  adapter: mysql2
   database: database_dev
   reconnect: false
   host: localhost
@@ -16,8 +16,8 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test: &test
-  adapter: pg
-  database: database_dev
+  adapter: mysql2
+  database: database_test
   reconnect: false
   host: localhost
   username: root
@@ -25,8 +25,8 @@ test: &test
   encoding: utf8
 
 production:
-  adapter: pg
-  database: database_dev
+  adapter: mysql2
+  database: database_prod
   reconnect: false
   host: localhost
   username: root

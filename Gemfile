@@ -5,6 +5,8 @@ gem 'rails', '3.1.1'
 #gem 'rake-compiler'
 #gem 'rdoc'
 #gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
+gem 'mysql2'
+gem 'mysql'
 gem 'pg'
 gem 'json'
 group :assets do
