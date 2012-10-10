@@ -1,6 +1,11 @@
 source 'http://rubygems.org'
 gem 'rails', '3.1.1'
-gem 'sqlite3'
+#gem 'hoe'
+#gem 'mini_portile'
+#gem 'rake-compiler'
+#gem 'rdoc'
+#gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
+gem 'pg'
 gem 'json'
 group :assets do
 gem 'sass-rails', '~> 3.1.4'
